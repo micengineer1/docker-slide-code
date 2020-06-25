@@ -4,6 +4,6 @@ RUN apk add --update nodejs nodejs-npm
 COPY . /src
 WORKDIR /src
 RUN npm install
-ENV CREATEDBY="Aamir Pinger"
+ENV CREATEDBY="Junaid"
 EXPOSE 8080
 ENTRYPOINT ["node", "./app.js"]
